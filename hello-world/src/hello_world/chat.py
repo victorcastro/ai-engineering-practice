@@ -1,3 +1,5 @@
+# pylint: disable=missing-function-docstring
+
 import os
 from anthropic import Anthropic
 from dotenv import load_dotenv

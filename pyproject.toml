@@ -8,7 +8,11 @@ dependencies = []
 package = false
 
 [tool.uv.workspace]
-members = ["hello-world"]
+
+members = [
+    "hello-world",
+    "rag-playground",
+]
 
 [build-system]
 requires = ["uv_build>=0.12.13,<0.13.0"]
